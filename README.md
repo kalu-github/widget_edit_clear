@@ -28,3 +28,25 @@
         <attr name="ect_background_store_size" format="reference|dimension" />
 </declare-styleable>
 ```
+```
+<com.demo.edittext.EditClearText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d32"
+        android:background="@null"
+        android:hint="请输入商品名称"
+        android:minHeight="@dimen/d32"
+        android:paddingLeft="@dimen/d14"
+        android:paddingRight="@dimen/d14"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/s13"
+        android:drawablePadding="2dp"
+        android:textColorHint="@android:color/darker_gray"
+        app:ect_background_color="@android:color/holo_blue_dark"
+        app:ect_background_corners="@dimen/d45"
+        app:ect_icon_left="@drawable/icon_user"
+        app:ect_icon_right="@drawable/icon_clear"
+        app:ect_icon_right_pressed="@drawable/icon_user"
+        app:ect_background_store_color="@android:color/black"
+        app:ect_background_store_size="@dimen/d2"/>
+```
