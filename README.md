@@ -1,8 +1,6 @@
 # EditClearText_v1.0
 有清除功能,只有当有焦点和文本不为空的时候才显示
 
-![image](https://github.com/kaluzh/EditClearText_v1.0/blob/master/Screenrecorder-2017-11-05.gif )  
-
 <declare-styleable name="EditClearText">
         <!-- 左边图片 -->
         <attr name="ect_icon_left" format="reference" />
@@ -29,3 +27,5 @@
         <!-- 背景边框宽度 -->
         <attr name="ect_background_store_size" format="reference|dimension" />
 </declare-styleable>
+
+![image](https://github.com/kaluzh/EditClearText_v1.0/blob/master/Screenrecorder-2017-11-05.gif )  
